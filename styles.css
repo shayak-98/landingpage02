@@ -17,6 +17,7 @@ img{
 }
 .top{
     height: 30vh;
+    min-height:350px;
 }
 
 .head-top{
