@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top{
+    background-image: url("images/ChatGPT\ Image\ Sep\ 26\,\ 2026\,\ 02_01_00\ PM.png");
+    background-size: cover;
+    background-repeat: no-repeat;    
+    background-position: top;
+
+}
+
+img{
+    height: 30px;
+    width: 30px ;
+}
+.top{
+    height: 30vh;
+}
+
+.head-top{
+    padding:20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+.mid-top{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.848);
+    margin-bottom: 100px;
+    font-size: 25px;
+}
+#bold{
+    font-weight: bold;
+}
+.logo-top{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    text-align: center;
+    color: white;
+    opacity: 0.9;
+}
+.logo1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+.text1{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.logo2{
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+.text2{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.logo3{
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+.text3{
+    grid-column: 3/4;
+    grid-row: 2/4;
+}
+.mid-head{
+    text-align: center;
+    margin: 30px 0px;
+    
+}
+.mid-text{
+    text-align: center;
+    display: flex;
+    /* gap: 120px; */
+    justify-content: center;
+}
+.mid-text1,.mid-text2{
+    /* width: 300px;
+    height: 100px; */
+    text-align: left;
+    flex: 1;
+    margin: 20px 180px;
+}
+.mid-image{
+    display: flex;
+    justify-content: center;
+    margin:10px 20px;
+}
+.midimg{
+    width: 40%;
+    height: 395px;
+    
+}
+.mid-foot{
+    text-align: center;
+    background-color: rgba(92, 92, 92, 0.101);
+    padding: 30px;
+}
+#head{
+    font-size: 20px;
+    font-weight:200;
+    margin-bottom: 10px;
+}
+.absimg{
+    width: 100%;
+    height: 30vh;
+    margin-bottom: 30px;
+}
+.client{
+    text-align: center;
+    font-size: 16px;
+    color: rgba(43, 43, 43, 0.688);
+    margin-bottom: 40px;
+}
+#clientid{
+    margin-bottom: 40px;
+}
+.client-logo{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.section1{
+    background-image: url("images/ChatGPT\ Image\ Sep\ 26\,\ 2026\,\ 02_59_31\ PM.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7;
+    height:30vh;
+    color: rgb(254, 252, 252);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+button{
+    border: 3px solid white;
+    background-color: rgba(185, 200, 212, 0);
+    color: white;
+    font-size: 10px;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+h2{
+margin-bottom: 20px;
+}
+.section2{
+    background-color: rgb(5, 152, 243);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+#h{
+    font-size: 20px;
+    color: rgba(4, 4, 4, 0.696);
+}
